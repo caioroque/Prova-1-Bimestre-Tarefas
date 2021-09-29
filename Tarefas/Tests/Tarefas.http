@@ -3,7 +3,9 @@ POST https://localhost:5001/Tarefas/tarefa/create
 Content-Type: application/json
 
 {
-    "Nome" : "Tarefa 01"
+    "Nome" : "Tarefa 01",
+    "Descricao" : "Colocar o lixo para fora",
+    "Importancia" : "Media"
 
 }
 

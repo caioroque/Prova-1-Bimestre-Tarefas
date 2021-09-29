@@ -1,0 +1,17 @@
+<div id="nome">
+    <label for="nome">Nome da Tarefa:</label>
+    <input type="text" name="nome" [(ngModel)]="nome" />
+</div>
+<div id="descricao">
+    <label for="descricao">descricao da Tarefa:</label>
+    <input type="text" name="descricao" [(ngModel)]="descricao" />
+</div>
+<div id="importancia">
+    <label for="importancia">Qual importancia da Tarefa?</label>
+    <input type="text" name="importancia" [(ngModel)]="importancia" />
+</div>
+<div id="criadoem">
+    <label for="criadoem">Essa tarefa foi criada quando</label>
+    <input type="text" name="criadoem" [(ngModel)]="criadoem" />
+</div>
+<button (click)="cadastrar()">Cadastrar</button>
