@@ -1,0 +1,11 @@
+### Cadastrar tarefa
+POST https://localhost:5001/Tarefas/tarefa/create
+Content-Type: application/json
+
+{
+    "Nome" : "Tarefa 01"
+
+}
+
+### Listar tarefas
+GET https://localhost:5001/Tarefas/tarefa/list
